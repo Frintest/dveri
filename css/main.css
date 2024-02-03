@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./mixins.css";
+
+@import "./header.css";
+@import "./section-offer.css";
+@import "./section-categories.css";
+@import "./section-stock.css";
+@import "./section-galery.css";
+@import "./section-form.css";
+@import "./footer.css";

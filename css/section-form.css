@@ -1,0 +1,51 @@
+/* section form */
+
+.form__title {
+   max-width: 396px;
+   font-size: 24px;
+   color: #222e3f;
+   font-weight: 700;
+}
+
+.form__form {
+   max-width: 610px;
+   margin-top: 60px;
+   display: flex;
+   flex-direction: column;
+}
+
+.form__input {
+   padding: 20px 0;
+   border: 0;
+   border-bottom: 1px solid #2f3e53;
+   font-size: 18px;
+   color: #2f3e53;
+}
+
+.form__input + .form__input {
+   margin-top: 30px;
+   font-family: "Formular", sans-serif;
+}
+
+.form__input::placeholder {
+   font-size: 18px;
+   color: #919191;
+}
+
+.form__submit {
+   max-width: 590px;
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.form__agreement {
+   max-width: 264px;
+   font-size: 14px;
+   color: #2f3e53;
+}
+
+.form__agreement > span {
+   color: #008fd0;
+   text-decoration: underline;
+}

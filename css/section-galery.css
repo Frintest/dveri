@@ -1,0 +1,22 @@
+/* section galery */
+
+.galery__container {
+   height: 557px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.galery__content {
+   max-width: 330px;
+}
+
+.galery__images {
+   display: flex;
+   position: absolute;
+   right: 0;
+}
+
+.galery__item + .galery__item {
+   margin-left: 50px;
+}
